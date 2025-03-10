@@ -9,6 +9,9 @@ string rremove(string s){
         for(int i = 0; i <= size - 1; i++){
             if(i == 0){
                 if(s[i] != s[i + 1]){
+
+
+
                     subStr += s[i];
                 }
             }else if(i == size - 1){
